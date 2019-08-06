@@ -5,6 +5,6 @@ def reverse_each_word(string)
     new_arr.join(" ")
 end
 
-def reverse_each_word_collect(string)
-    string.split(" ").collect { |i| i.reverse }.join(" ")
+def reverse_each_word_collect(sentence)
+    sentence.split(" ").collect { |i| i.reverse }.join(" ")
 end
