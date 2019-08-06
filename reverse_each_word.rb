@@ -4,3 +4,6 @@ def reverse_each_word(string)
     arr.each { |i| new_arr << i.reverse }
     new_arr.join(" ")
 end
+
+def reverse_each_word(string)
+  string.split("").collect {|i| i.reverse } .join("")
